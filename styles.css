@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: tron;
+    src: url("./tron/TRON.TTF");
+}
+
+body {
+  background-image: url("./images/fondo1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+    width:700px;
+    height:auto;
+    margin: 100px auto 0;
+    display: block;
+  }
+  
+  .row {
+    display:block;
+    width:100%;
+    min-height:75px;
+    height:auto;
+  }
+  
+  .btn {
+    float: left;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 7px 11px 0;
+    color: #888;
+    text-align: center;
+    font-family: tron;
+    font-size-adjust: none;
+  
+    /* so nobody selects the inside text on button */
+    user-select: none;
+  
+    /* Smoothing out hover using css3 transitions, if not, the pressed button effect looks a bit hard */
+    transition: all 0.2s ease;
+  }
+  .btn-medium {
+    line-height: 45px;
+    width: 300px;
+    height: 45px;
+    font-size: 100%;
+  }
+  
+
+  #canvas{
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 1300px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+  }
+
+main section .section-background{
+    background-image: url("./images/fondo1.jpg");
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+}
+
+header .uno{
+    height: 150;
+    position: relative;
+    display: flex;
+    align-content: center;
+    font-family: tron;
+}
+
+main section.background, div.background{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
