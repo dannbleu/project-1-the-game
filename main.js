@@ -15,7 +15,7 @@ var music = new Audio();
 var onesec = frames/60;
 var timerId = setInterval(countdown, 1000 onesec)*/
 
-music.src = './music/Daft Punk- Derezzed (OFFICIAL TRACK)(FULL SONG)(HQ)(2010)TRON SOUNDTRACK.mp3'
+music.src = './myMusic/tronSound.mp3'
 music.loop = true;
 
 var startGame = document.getElementById("start-game");
