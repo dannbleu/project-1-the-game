@@ -33,9 +33,9 @@ body {
   }
   
   .btn {
-    float: left;
+    float: center;
     position: relative;
-    top: 0;
+    top: 20;
     cursor: pointer;
     background: white;
     border-radius: 3px;
@@ -53,7 +53,7 @@ body {
     transition: all 0.2s ease;
   }
   .btn-medium {
-    line-height: 45px;
+    line-height: 60px;
     width: 300px;
     height: 45px;
     font-size: 100%;
@@ -84,8 +84,8 @@ main section .section-background{
 
 header .uno{
     height: 150;
-    position: relative;
-    display: flex;
+    position: absolute;
+    display: block;
     align-content: center;
     font-family: tron;
 }
